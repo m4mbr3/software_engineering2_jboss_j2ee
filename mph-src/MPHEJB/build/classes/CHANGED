@@ -1,0 +1,25 @@
+For All Team
+This file rapresents all the changes that we will do respect to our documentations
+
+1) added extension field to File entity! like String
+
+2) Mark non va su progetto ma va su Gruppo. Responsability e Salary vanno cancellati dall'entità Project.
+	Lo stesso discorso vale per il mark delle deliverable...
+	
+3) La creazione delle deliverable viene fatta scegliendo a priori tramite un menù a tendina il numero
+	delle deliverable. La pagine si refresha e sono visualizzati tot campi di creazione quanti sono
+	stati scelti: ogni campo di creazione ha come nome nameDel1, quella dopo nameDel2 in modo che
+	nella servlet quando si recuperano i dati si sa quanti sono i campi. Deve essere passato anche il
+	numero scelto nella tendina (faccio un ciclo for).
+	
+4) Descrizione del progetto manca
+
+5) Supposizione: Allgropupage ho l'elenco di TUTTI i gruppi DEL PROF con a fianco due link: vai alla
+	pagina gruppo e scarica tutto quello che ha messo su il gruppo.
+	Alla pagine viewByGroupPage ho la stessa cosa ma sono visualizzati solamente i gruppi che sono di
+	quel progetto. Alla pagina viewPerType ci devo pensare.
+	
+6) Problema: viewPerType è sbagliato. Inoltre abbiamo il problema che bisogna poter dare un voto alle
+	deliverable di ogni gruppo...ma noi abbiamo solo la tabella deliverable generale...se fem ?
+	
+7) Mettere OnetoMany in file l'attributo Deliverable

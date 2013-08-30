@@ -1,0 +1,174 @@
+/* Makeshift CSS Reset */  
+{  
+    margin: 0;  
+    padding: 0;  
+}  
+  
+/* Tell the browser to render HTML 5 elements as block */  
+header, footer, aside, nav, article {  
+    display: block;  
+}  
+  
+body {  
+    margin: 0 auto;  
+    width: 940px;  
+    font: 13px/22px Helvetica, Arial, sans-serif;  
+    background: #f0f0f0;  
+}  
+  
+h2 {  
+    font-size: 28px;  
+    line-height: 44px;  
+    padding: 22px 0;  
+}  
+
+h3 {  
+    font-size: 18px;  
+    line-height: 22px;  
+    padding: 11px 0;  
+}  
+ 
+p {  
+    padding-bottom: 22px;  
+}
+
+nav {  
+    position: absolute;  
+    left: 0;  
+    width: 100%;  
+    background: url('../images/nav_background.png');  
+}
+
+nav ul {  
+    margin: 0 auto;  
+    width: 940px;  
+    list-style: none;  
+}
+
+nav ul li {  
+    float: left;  
+}  
+  
+nav ul li a {  
+    display: block;  
+        margin-right: 20px;  
+        width: 140px;  
+        font-size: 14px;  
+        line-height: 44px;  
+        text-align: center;    
+        color: #777;  
+        
+    }  
+      
+nav ul li a:hover {  
+            color: #fff;
+            text-decoration: solid;  
+        }  
+  
+nav ul li.selected a {  
+            color: #fff;  
+            text-decoration: solid;
+        }  
+#intro {  
+    margin-top: 66px;  
+    padding: 24px;  
+    background-color:navy;
+    background-size: 100%;  
+    border-radius: 22px;  
+    
+    -webkit-background-size: 100%;  
+    -o-background-size: 100%;  
+    -khtml-background-size: 100%;  
+
+    -moz-border-radius: 22px;  
+    -webkit-border-radius: 22px;  
+}
+
+#content {  
+    display: table;  
+}  
+  
+#mainContent {  
+   display: table-cell;  
+        width: 620px;  
+        padding-right: 22px;
+        padding-top:0px;
+        margin-top:0px;
+        text-align:center;  
+    }       
+
+
+#LoginForm{
+	height:100px;
+}
+#register{
+	height:100px;
+}
+  
+aside {  
+        display: table-cell;  
+        width: 300px; 
+        background: url("../images/sidebar_background.png") top left; 
+    }   
+#intro h1 {
+	color: white;
+	
+}
+
+aside section {
+	margin: 22px 0 0 22px;
+	padding: 11px 22px;
+	background: url("../images/sidebar_section_background.png") repeat-x;
+	
+	/* Border-radius not implemented yet */
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+}
+
+	aside section ul {
+		margin: 0 0 0 22px;
+		list-style: none;
+	}
+	
+		aside section ul li a {
+			display: block;
+			text-decoration: none;
+			color: #000;
+		}
+		
+			aside section ul li a:hover {
+				text-decoration: underline;
+			}
+footer {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background: #222;
+}
+
+
+footer div {
+		display: table;
+		margin: 0;
+		padding:0;
+		width: 500px;
+		color: #777;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	
+footer div section {
+	display: table-cell;
+	width: 200px;
+	height: 50px;
+	padding: 0;
+		}
+		
+			
+footer h3 {
+		margin:0;
+		color: #777;
+		text-align: center;
+	}
+		  
